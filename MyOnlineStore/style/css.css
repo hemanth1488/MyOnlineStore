@@ -1,0 +1,266 @@
+
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+}
+
+
+
+#wrap{ width:600px;  top:20px; position:relative; bottom:0px;
+  }
+#wrap ul{ margin:0px; padding:0px; text-align:center }
+
+#wrap ul li{ 
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+	border: 10px solid rgba(0,0,0,0.3);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+	
+	/*background:url("bgs.png") repeat-x scroll;*/
+	list-style-type:none; 
+	height:175px; 
+	width:160px; 
+	margin-left:13px; 
+	margin-bottom:15px; 
+	float:left;
+	padding:15px 0px 0px 0px;
+	font-family:"LubalGraphBdBTBold",Tahoma;
+	font-size:2em;
+	overflow:hidden;
+}
+
+#wrap ul li div{ 
+
+	height:25px;
+	text-align:center;
+	width:160px;
+	margin-top:10px;
+	position:relative;
+	bottom:0px;
+	padding-top:12px;
+	padding-bottom:4px;
+	background:#000;
+	font: 11px Tahoma, Helvetica, Arial, Sans-Serif;
+	opacity:0.8;
+	color: #ccc;
+	text-shadow: 0px 2px 3px #555;
+}
+img#cart
+{ 
+	bottom:0px;position:fixed; margin-left:30px; /* keep the bar on top  */
+}
+
+#wrap ul li { cursor:pointer;}
+
+div#bottomBar {
+  position: fixed;/* keep the bar on top  */
+  bottom: 0px;
+  z-index: 9999;
+  background:url(rail.jpg) bottom center repeat-x;
+  height: 130px;
+}
+
+div#bottomBar {
+  width:600px;
+}
+
+
+em{ font-style:normal; }
+button {
+	
+	background:none repeat scroll 0 0 #AD7B05; color:#FFFFFF;
+	border:medium none;
+	font-family:"LubalGraphBdBTBold",Tahoma;
+	font-size:1.1em;
+	margin-right:-14px;
+	padding:10px;
+	cursor:pointer;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+}
+
+.cart-total{ background:#E8E8E8}
+
+.shopp,.cart-total{ 
+	border:solid #ccc 1px; padding:8px; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px; font-size:12px;
+	background:url(remove.png) center right no-repeat 5px;
+	border-radius: 8px; 
+	font-family:"LubalGraphBdBTBold",Tahoma; 
+	margin-bottom:3px;
+	width:450px;
+	}
+	
+div.shopp span{  float:left;}	
+div.shopp div.label{ width:100px; float:left; }	
+div.shopp div.pricetotal{ width:80px; float:left; }	
+div.shopp div.shopp-price{ width:60px; float:left;}
+div.shopp div.shopp-quantity{ width:150px; float:left;}
+.quantity{ float:left; margin-top:-3px; width:40px;}
+img.remove{float:right;cursor:pointer;}
+.cart-total b{width:130px;}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	/* [disabled]line-height:1.5em; */
+}
+body {
+	background-color: #FFF;
+}
+a {
+	font-size: 14px;
+	color: #03F;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #03F;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #03F;
+}
+#pageHeader {
+	border:#999 1px solid;
+	border-bottom:none;
+	background-color:#F4F4F4;
+	margin:0;
+	padding:0;
+	outline:0;
+	
+}
+#pageContent {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+
+}
+#pageFooter {
+	border:#999 1px solid;
+	background-color:#F4F4F4;
+	margin:0;
+	padding:0;
+	outline:0;
+	
+}
+.mw{position: relative; left: -1; top: -1; color: #ffffff; font-size: 11px; font-family: tahoma; font-weight: 600}
+
+.mb{color: #000000; font-size: 11px; position: absolute; font-family: tahoma; font-weight: 600}
+
+#navigation{
+	height:60px;
+}
+
+#home, #home div, 
+#about, #about div, 
+#services , #services div, 
+#solutions, #solutions div, 
+#contact,  #contact div {
+	height:80px;
+	position:absolute;
+	width:97px;
+	float:left;
+}
+
+#home, #about, #services, #solutions, #contact{
+	background-image: url(../img/nav.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	top:171px;
+}
+
+#home{
+	background-position: 0px -25px;
+	margin-left:6px;
+}
+
+#about{
+	background-position: -98px -25px;
+	margin-left:105px;
+}
+
+#services{
+	background-position: -196px -25px;
+	margin-left:204px;
+}
+
+#solutions{
+	background-position: -294px -25px;
+	margin-left:303px;
+}
+
+#contact{
+	background-position: -392px -25px;
+	margin-left:402px;
+}
+
+#home div, #about div, #services div, #solutions div, #contact div {
+	background-image: url(../img/white.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0px -60px;	
+}	
+
+.pri-nav a{
+	display:block;
+	text-decoration:none;
+	text-indent:-30000px;
+}
+
+.content{
+	margin-top:160px;
+}
+
+#content-title{
+	background: url(../img/content-title.png) no-repeat scroll;
+	height:323px;
+	position:absolute;
+	width:100%;
+}
+
+.aw{color: #ffffff; font-size: 11px; font-family: tahoma; font-weight: 600}
+
+.lb{color: #78BE30; font-size: 11px; position: absolute; font-family: tahoma; font-weight: 600}
+.lw{position: relative; left: -1; top: -1; color: #ffffff; font-size: 11px; font-family: tahoma; font-weight: 600}
+
+.lmenu{padding: 7px 0 4px 0}
+.lm11{font-family: Tahoma; font-size: 11px; color: #484E53;}
+.top11{font-family: Tahoma; font-size: 11px; color: #46484A;}
+
+.shopp1,.cart-total1{ 
+	border:solid #ccc 1px; padding:8px; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px; font-size:12px;
+	background:url(remove.png) center right no-repeat 5px;
+	border-radius: 8px; 
+	font-family:"LubalGraphBdBTBold",Tahoma; 
+	margin-bottom:3px;
+	width:1000px;
+	}
+	
+div.shopp1 span1{  float:left;}	
+div.shopp1 div.label1{ width:200px; float:left; }	
+div.shopp1 div.pricetotal1{ width:200px; float:left; }	
+div.shopp1 div.shopp-price1{ width:200px; float:left;}
+div.shopp1 div.shopp-quantity1{ width:150px; float:left;}
+.quantity1{1 float:left; margin-top:-3px; width:40px;}
+img.remove1{float:right;cursor:pointer;}
+
+
+
